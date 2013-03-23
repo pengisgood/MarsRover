@@ -1,4 +1,0 @@
-MarsRover
-=========
-
-TDD practice
