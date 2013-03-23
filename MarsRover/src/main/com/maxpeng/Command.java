@@ -1,11 +1,13 @@
 package com.maxpeng;
 
 /**
- * User: maxpeng
- * Date: 13-3-19
- * Time: 下午9:16
+ * User: Administrator
+ * Date: 3/23/13
+ * Time: 6:48 PM
+ * Project: MarsRover
  * version: 0.1
  */
 public interface Command {
-    void execute(Object obj);
+
+    void execute();
 }
