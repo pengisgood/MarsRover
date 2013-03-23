@@ -1,10 +1,9 @@
 package com.maxpeng;
 
-import com.maxpeng.Point;
-import com.maxpeng.Rover;
-import org.junit.Before;
 import org.junit.Test;
 
+import static com.maxpeng.Position.position;
+import static com.maxpeng.Rover.rover;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
@@ -16,66 +15,59 @@ import static org.junit.Assert.assertThat;
  */
 public class MarsRoverMoveTest {
 
-    private Rover rover;
-
-    @Before
-    public void setUp() throws Exception {
-        rover = new Rover();
-    }
-
     @Test
     public void should_add_y_facing_north() throws Exception {
-        rover.setDirection('N');
+        Rover rover = rover(Direction.NORTH, position(0, 0));
         rover.move();
-        assertThat(rover.getPosition(), is(new Point(0, 1)));
+        assertThat(rover.position(), is(position(0, 1)));
     }
 
     @Test
     public void should_add_x_facing_east() throws Exception {
-        rover.setDirection('E');
+        Rover rover = rover(Direction.EAST, position(0, 0));
         rover.move();
-        assertThat(rover.getPosition(), is(new Point(1, 0)));
+        assertThat(rover.position(), is(position(1, 0)));
     }
 
     @Test
     public void should_sub_y_facing_north() throws Exception {
-        rover.setDirection('S');
+        Rover rover = rover(Direction.SOUTH, position(0, 0));
         rover.move();
-        assertThat(rover.getPosition(), is(new Point(0, -1)));
+        assertThat(rover.position(), is(position(0, -1)));
     }
 
     @Test
     public void should_sub_x_facing_west() throws Exception {
-        rover.setDirection('W');
+        Rover rover = rover(Direction.WEST, position(0, 0));
         rover.move();
-        assertThat(rover.getPosition(), is(new Point(-1, 0)));
+        assertThat(rover.position(), is(position(-1, 0)));
     }
 
     @Test
     public void should_keep_origin_direction_facing_north() throws Exception {
-        rover.setDirection('N');
+        Rover rover = rover(Direction.NORTH, position(0, 0));
         rover.move();
-        assertThat(rover.getDirection(), is('N'));
+        assertThat(rover.direction(), is(Direction.NORTH));
     }
 
     @Test
     public void should_keep_origin_direction_facing_west() throws Exception {
-        rover.setDirection('W');
+        Rover rover = rover(Direction.WEST, position(0, 0));
         rover.move();
-        assertThat(rover.getDirection(), is('W'));
+        assertThat(rover.direction(), is(Direction.WEST));
     }
 
     @Test
     public void should_keep_origin_direction_facing_south() throws Exception {
-        rover.setDirection('S');
+        Rover rover = rover(Direction.SOUTH, position(0, 0));
         rover.move();
-        assertThat(rover.getDirection(), is('S'));
+        assertThat(rover.direction(), is(Direction.SOUTH));
     }
 
     @Test
     public void should_keep_origin_direction_facing_east() throws Exception {
-        rover.setDirection('E');
+        Rover rover = rover(Direction.EAST, position(0, 0));
         rover.move();
-        assertThat(rover.getDirection(), is('E'));
+        assertThat(rover.direction(), is(Direction.EAST));
     }
 }

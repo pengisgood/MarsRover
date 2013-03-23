@@ -4,14 +4,24 @@
     <list default="true" id="bef54588-ac71-465d-a48b-38d63299cbbb" name="Default" comment="" />
     <ignored path="MarsRover.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363651236424" ignored="false" />
-    <file path="/File Header.txt.ft" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363618066479" ignored="false" />
-    <file path="/MarsRoverTurnLeftTest.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363664477607" ignored="false" />
-    <file path="/fragment.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363676139514" ignored="false" />
-    <file path="/Rover.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363679093510" ignored="false" />
+    <file path="/Dummy.txt" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364003159720" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364004710805" ignored="false" />
+    <file path="/MarsRoverTurnLeftTest.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363941469187" ignored="false" />
+    <file path="/fragment.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364005020052" ignored="false" />
+    <file path="/Rover.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364005669059" ignored="false" />
     <file path="/Point.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363667961654" ignored="false" />
-    <file path="/MarsRoverTurnRightTest.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363664628786" ignored="false" />
-    <file path="/MarsRoverMoveTest.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363676427101" ignored="false" />
+    <file path="/MarsRoverTurnRightTest.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364006955737" ignored="false" />
+    <file path="/MarsRoverMoveTest.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364006459494" ignored="false" />
+    <file path="/Direction.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363773333582" ignored="false" />
+    <file path="/Command.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363699242141" ignored="false" />
+    <file path="/TurnLeftCommand.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363706755543" ignored="false" />
+    <file path="/TurnRightCommand.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363701210646" ignored="false" />
+    <file path="/a.dummy" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363941384242" ignored="false" />
+    <file path="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/a.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364002857607" ignored="false" />
+    <file path="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/hello.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364003076149" ignored="false" />
+    <file path="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/d.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364003228645" ignored="false" />
+    <file path="/RoverFactory.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364005243634" ignored="false" />
+    <file path="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/RoverFactory.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364005415490" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +35,13 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -60,7 +76,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -70,13 +85,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MarsRoverTurnRightTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnRightTest.java">
+      <file leaf-file-name="MarsRoverTurnLeftTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnLeftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.37853107">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="71" column="5" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +97,7 @@
       <file leaf-file-name="MarsRoverMoveTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverMoveTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="14" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+            <state line="19" column="32" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,17 +105,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Point.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Point.java">
+      <file leaf-file-name="MarsRoverTurnRightTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnRightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
+            <state line="43" column="0" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.85987264">
               <folding>
-                <marker date="1363667997920" expanded="true" signature="187:234" placeholder="{...}" />
-                <marker date="1363667997920" expanded="true" signature="269:318" placeholder="{...}" />
-                <marker date="1363667997920" expanded="true" signature="354:403" placeholder="{...}" />
-                <marker date="1363667997920" expanded="true" signature="457:628" placeholder="{...}" />
-                <marker date="1363667997920" expanded="true" signature="673:783" placeholder="{...}" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Position.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="16" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,16 +128,16 @@
       <file leaf-file-name="Rover.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Rover.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+            <state line="21" column="21" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Direction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Direction.java">
+      <file leaf-file-name="TurnRightCommand.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/TurnRightCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+            <state line="11" column="16" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,25 +161,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnLeftTest.java" />
         <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/MarsRoverTurnLeftTest.java" />
         <option value="$PROJECT_DIR$/MarsRover/src/main/MarsRoverTurnLeftTest.java" />
         <option value="$PROJECT_DIR$/MarsRover/src/test/MarsRoverTurnRightTest.java" />
         <option value="$PROJECT_DIR$/MarsRover/src/test/MarsRoverTurnLeftTest.java" />
-        <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Point.java" />
         <option value="$PROJECT_DIR$/MarsRover/src/test/MarsRoverMoveTest.java" />
-        <option value="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverMoveTest.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Command.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/TurnLeftCommand.java" />
         <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Direction.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Point.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Position.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/TurnRightCommand.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/RoverFactory.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnLeftTest.java" />
         <option value="$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Rover.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnRightTest.java" />
+        <option value="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverMoveTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1278" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,6 +201,12 @@
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="unused-library(library:project:hamcrest-core-1.3)" />
+      <problem id="unused-library(library:project:junit-4.11)" />
+    </ignored-problems>
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -191,6 +220,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,40 +283,30 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maxpeng" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/MarsRover/src/test/com/maxpeng" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="editing.templates" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="project.structure.side.proportion" value="0.10940919" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -299,30 +320,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MarsRoverTurnRightTest">
-    <configuration default="false" name="MarsRoverMoveTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MarsRover" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.maxpeng" />
-      <option name="MAIN_CLASS_NAME" value="com.maxpeng.MarsRoverMoveTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MarsRoverMoveTest">
     <configuration default="false" name="MarsRoverTurnLeftTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -351,15 +349,48 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="All in MarsRover" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="MarsRoverMoveTest.should_add_y_facing_north" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.maxpeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <module name="MarsRover" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="com.maxpeng" />
+      <option name="MAIN_CLASS_NAME" value="com.maxpeng.MarsRoverMoveTest" />
+      <option name="METHOD_NAME" value="should_add_y_facing_north" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MarsRoverMoveTest.should_keep_origin_direction_facing_east" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.maxpeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MarsRover" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.maxpeng" />
+      <option name="MAIN_CLASS_NAME" value="com.maxpeng.MarsRoverMoveTest" />
+      <option name="METHOD_NAME" value="should_keep_origin_direction_facing_east" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -402,7 +433,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="MarsRoverMoveTest.should_keep_origin_direction_facing_north" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="MarsRoverMoveTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.maxpeng.*" />
@@ -414,8 +445,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.maxpeng" />
       <option name="MAIN_CLASS_NAME" value="com.maxpeng.MarsRoverMoveTest" />
-      <option name="METHOD_NAME" value="should_keep_origin_direction_facing_north" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -480,18 +511,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverTurnLeftTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in MarsRover" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTurnLeftTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest.should_add_y_facing_north" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest.should_keep_origin_direction_facing_east" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverTurnRightTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest.should_keep_origin_direction_facing_north" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverTurnRightTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest.should_keep_origin_direction_facing_north" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in MarsRover" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MarsRoverTurnRightTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest.should_keep_origin_direction_facing_east" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MarsRoverMoveTest.should_add_y_facing_north" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MarsRoverTurnLeftTest" />
       </list>
     </recent_temporary>
@@ -528,13 +559,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1" y="1" width="1278" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291592" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -542,18 +574,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24961832" sideWeight="0.67071056" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27114427" sideWeight="0.6708408" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961832" sideWeight="0.67071056" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -617,36 +650,19 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnLeftTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="5" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnLeftTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="311" selection-end="316" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="13" selection-start="311" selection-end="316" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="27" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -656,59 +672,69 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/artifacts-23/filestore/junit/junit/4.11/source/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="18" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="48" column="18" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Point.java">
+    <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1363667997920" expanded="true" signature="187:234" placeholder="{...}" />
-            <marker date="1363667997920" expanded="true" signature="269:318" placeholder="{...}" />
-            <marker date="1363667997920" expanded="true" signature="354:403" placeholder="{...}" />
-            <marker date="1363667997920" expanded="true" signature="457:628" placeholder="{...}" />
-            <marker date="1363667997920" expanded="true" signature="673:783" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="9" column="23" selection-start="140" selection-end="146" vertical-scroll-proportion="0.36397058" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnLeftTest.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.7.0_10/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.44067797">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="152" column="26" selection-start="5809" selection-end="5809" vertical-scroll-proportion="0.2751938" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverMoveTest.java">
+    <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/TurnLeftCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="15" column="15" selection-start="277" selection-end="277" vertical-scroll-proportion="0.6066176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+        <state line="37" column="27" selection-start="629" selection-end="629" vertical-scroll-proportion="0.39338234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="16" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/TurnRightCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarsRover/src/main/com/maxpeng/Rover.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+        <state line="21" column="21" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverMoveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnLeftTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="5" selection-start="2200" selection-end="2200" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarsRover/src/test/com/maxpeng/MarsRoverTurnRightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="1935" selection-end="1935" vertical-scroll-proportion="0.37853107">
+        <state line="43" column="0" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.85987264">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -724,7 +750,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10940919" />
               </list>
             </option>
           </splitter-proportions>
@@ -732,11 +758,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10940919" />
               </list>
             </option>
           </splitter-proportions>
@@ -748,7 +774,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10940919" />
               </list>
             </option>
           </splitter-proportions>
@@ -760,7 +786,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10940919" />
               </list>
             </option>
           </splitter-proportions>
@@ -772,7 +798,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10940919" />
                 <option value="0.5" />
               </list>
             </option>
@@ -797,7 +823,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.10940919" />
               </list>
             </option>
           </splitter-proportions>

@@ -7,80 +7,57 @@ package com.maxpeng;
  * version: 0.1
  */
 public class Rover {
-    private Point position;
-    private char direction;
+    private Position position;
+    private Direction direction;
 
-    public Rover() {
-        this('E');
-    }
-
-    public Rover(char direction) {
-        this(direction, new Point(0, 0));
-    }
-
-    public Rover(char direction, Point position) {
+    private Rover(Direction direction, Position position){
         this.direction = direction;
         this.position = position;
     }
 
-    public char getDirection() {
-        return direction;
+    public static Rover rover(Direction direction, Position position) {
+        return new Rover(direction, position);
+    }
+
+    public Direction direction() {
+        return this.direction;
+    }
+
+    public Position position() {
+        return this.position;
     }
 
     public void turnLeft() {
-        switch (this.direction){
-            case 'E':
-                this.direction = 'N';
-                break;
-            case 'N':
-                this.direction = 'W';
-                break;
-            case 'W':
-                this.direction = 'S';
-                break;
-            case 'S':
-                this.direction = 'E';
-        }
-    }
-
-    public Point getPosition() {
-        return position;
+        this.direction = (Direction) Direction.DIRECTIONS.get((getIndex() - 1 + getSize()) % getSize());
     }
 
     public void turnRight() {
-        switch (this.direction){
-            case 'E':
-                this.direction = 'S';
-                break;
-            case 'N':
-                this.direction = 'E';
-                break;
-            case 'W':
-                this.direction = 'N';
-                break;
-            case 'S':
-                this.direction = 'W';
-        }
-    }
-
-    public void setDirection(char direction) {
-        this.direction = direction;
+        this.direction = (Direction) Direction.DIRECTIONS.get((getIndex() + 1) % getSize());
     }
 
     public void move() {
+
         switch (this.direction){
-            case 'N':
-                this.position.add(0, 1);
-                break;
-            case 'E':
+            case EAST:
                 this.position.add(1, 0);
                 break;
-            case 'S':
+            case SOUTH:
                 this.position.sub(0, 1);
                 break;
-            case 'W':
+            case WEST:
                 this.position.sub(1, 0);
                 break;
+            case NORTH:
+                this.position.add(0, 1);
+                break;
         }
+    }
+
+    private int getIndex() {
+        return Direction.DIRECTIONS.indexOf(this.direction());
+    }
+
+    private int getSize() {
+        return Direction.DIRECTIONS.size();
     }
 }
