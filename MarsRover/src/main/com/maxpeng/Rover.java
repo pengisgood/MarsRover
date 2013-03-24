@@ -10,7 +10,7 @@ public class Rover {
     private Position position;
     private Direction direction;
 
-    private Rover(Direction direction, Position position){
+    private Rover(Direction direction, Position position) {
         this.direction = direction;
         this.position = position;
     }
@@ -28,11 +28,33 @@ public class Rover {
     }
 
     public void turnLeft() {
-        this.direction = (Direction) Direction.DIRECTIONS.get((getIndex() - 1 + getSize()) % getSize());
+        if (this.direction.equals(Direction.EAST)) {
+            this.direction = Direction.NORTH;
+        }
+        else if (this.direction.equals(Direction.NORTH)) {
+            this.direction = Direction.WEST;
+        }
+        else if (this.direction.equals(Direction.WEST)) {
+            this.direction = Direction.SOUTH;
+        }
+        else if (this.direction.equals(Direction.SOUTH)) {
+            this.direction = Direction.EAST;
+        }
     }
 
     public void turnRight() {
-        this.direction = (Direction) Direction.DIRECTIONS.get((getIndex() + 1) % getSize());
+        if (this.direction.equals(Direction.EAST)) {
+            this.direction = Direction.SOUTH;
+        }
+        else if (this.direction.equals(Direction.NORTH)) {
+            this.direction = Direction.EAST;
+        }
+        else if (this.direction.equals(Direction.WEST)) {
+            this.direction = Direction.NORTH;
+        }
+        else if (this.direction.equals(Direction.SOUTH)) {
+            this.direction = Direction.WEST;
+        }
     }
 
     public void move() {
@@ -42,10 +64,10 @@ public class Rover {
                 this.position.add(1, 0);
                 break;
             case SOUTH:
-                this.position.sub(0, 1);
+                this.position.add(0, -1);
                 break;
             case WEST:
-                this.position.sub(1, 0);
+                this.position.add(-1, 0);
                 break;
             case NORTH:
                 this.position.add(0, 1);

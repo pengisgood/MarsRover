@@ -13,7 +13,7 @@ import static org.junit.Assert.assertThat;
  * Time: 下午10:48
  * version: 0.1
  */
-public class MarsRoverTurnLeftTest {
+public class RoverTurnLeftTest {
 
     @Test
     public void should_face_north_given_east() throws Exception {

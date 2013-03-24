@@ -20,6 +20,10 @@ public class CommandFactory {
             command = new TurnRightCommand(rover);
         }
 
+        if (commandLetter == 'M') {
+            command = new MoveCommand(rover);
+        }
+
         return command;
     }
 }
