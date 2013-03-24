@@ -1,7 +1,11 @@
 package com.maxpeng;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import static java.util.Arrays.asList;
 
 /**
  * User: maxpeng
@@ -12,5 +16,23 @@ import java.util.Arrays;
 public enum Direction {
     EAST, SOUTH, WEST, NORTH;
 
-    public static final ArrayList DIRECTIONS = new ArrayList(Arrays.asList(EAST, SOUTH, WEST, NORTH));
+    private final static Map<Direction,List<Direction>> directionMap;
+
+    static {
+        directionMap = new HashMap<Direction, List<Direction>>();
+        directionMap.put(EAST, asList(NORTH, SOUTH));
+        directionMap.put(NORTH, asList(WEST, EAST));
+        directionMap.put(WEST, asList(SOUTH, NORTH));
+        directionMap.put(SOUTH, asList(EAST, WEST));
+
+        Collections.unmodifiableMap(directionMap);
+    }
+
+    public static Direction left(Direction direction) {
+        return directionMap.get(direction).get(0);
+    }
+
+    public static Direction right(Direction direction) {
+        return directionMap.get(direction).get(1);
+    }
 }

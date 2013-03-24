@@ -24,6 +24,11 @@ public class Position {
         this.y += y;
     }
 
+    public void sub(int x, int y) {
+        this.x -= x;
+        this.y -= y;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof Position)) {
