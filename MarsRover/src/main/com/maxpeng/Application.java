@@ -14,7 +14,7 @@ public class Application {
         this.rover = rover;
     }
 
-    public void receive(char commandLetter) {
+    public void receiveCommand(char commandLetter) {
         Command command = CommandFactory.buildCommand(commandLetter, rover);
         command.execute();
     }

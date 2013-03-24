@@ -20,7 +20,7 @@ public class ApplicationTest {
     public void rover_turn_left_given_command_L() throws Exception {
         Rover rover = rover(Direction.EAST, position(0, 0));
         Application app = new Application(rover);
-        app.receive('L');
+        app.receiveCommand('L');
         assertThat(rover.direction(), is(Direction.NORTH));
     }
 
@@ -28,7 +28,7 @@ public class ApplicationTest {
     public void rover_turn_right_given_command_R() throws Exception {
         Rover rover = rover(Direction.EAST, position(0, 0));
         Application app = new Application(rover);
-        app.receive('R');
+        app.receiveCommand('R');
         assertThat(rover.direction(), is(Direction.SOUTH));
     }
 
@@ -36,7 +36,7 @@ public class ApplicationTest {
     public void rover_move_toward_east_given_command_M() throws Exception {
         Rover rover = rover(Direction.EAST, position(0, 0));
         Application app = new Application(rover);
-        app.receive('M');
+        app.receiveCommand('M');
         assertThat(rover.position(), is(position(1, 0)));
     }
 
@@ -44,7 +44,7 @@ public class ApplicationTest {
     public void rover_move_toward_north_given_command_M() throws Exception {
         Rover rover = rover(Direction.NORTH, position(0, 0));
         Application app = new Application(rover);
-        app.receive('M');
+        app.receiveCommand('M');
         assertThat(rover.position(), is(position(0, 1)));
     }
 
@@ -52,7 +52,7 @@ public class ApplicationTest {
     public void rover_move_toward_west_given_command_M() throws Exception {
         Rover rover = rover(Direction.WEST, position(0, 0));
         Application app = new Application(rover);
-        app.receive('M');
+        app.receiveCommand('M');
         assertThat(rover.position(), is(position(-1, 0)));
     }
 
@@ -60,7 +60,7 @@ public class ApplicationTest {
     public void rover_move_toward_south_given_command_M() throws Exception {
         Rover rover = rover(Direction.SOUTH, position(0, 0));
         Application app = new Application(rover);
-        app.receive('M');
+        app.receiveCommand('M');
         assertThat(rover.position(), is(position(0, -1)));
     }
 }

@@ -19,13 +19,14 @@ public enum Direction {
     private final static Map<Direction,List<Direction>> directionMap;
 
     static {
-        directionMap = new HashMap<Direction, List<Direction>>();
-        directionMap.put(EAST, asList(NORTH, SOUTH));
-        directionMap.put(NORTH, asList(WEST, EAST));
-        directionMap.put(WEST, asList(SOUTH, NORTH));
-        directionMap.put(SOUTH, asList(EAST, WEST));
+     Map<Direction,List<Direction>> tempMap;
+        tempMap = new HashMap<Direction, List<Direction>>();
+        tempMap.put(EAST, asList(NORTH, SOUTH));
+        tempMap.put(NORTH, asList(WEST, EAST));
+        tempMap.put(WEST, asList(SOUTH, NORTH));
+        tempMap.put(SOUTH, asList(EAST, WEST));
 
-        Collections.unmodifiableMap(directionMap);
+        directionMap = Collections.unmodifiableMap(tempMap);
     }
 
     public static Direction left(Direction direction) {
