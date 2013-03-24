@@ -6,7 +6,7 @@
     </list>
     <ignored path="MarsRover.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364119962486" ignored="false" />
+    <file path="/Dummy.txt" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364119986316" ignored="false" />
     <file path="/File Header.txt.ft" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364004710805" ignored="false" />
     <file path="/MarsRoverTurnLeftTest.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1363941469187" ignored="false" />
     <file path="/fragment.java" changelist="bef54588-ac71-465d-a48b-38d63299cbbb" time="1364101389516" ignored="false" />
@@ -611,7 +611,11 @@
       <created>1364119972790</created>
       <updated>1364119972790</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[maxpeng]rename MarsRoverMoveTest to RoverMoveTest.">
+      <created>1364119991076</created>
+      <updated>1364119991076</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
