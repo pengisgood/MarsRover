@@ -8,6 +8,7 @@ package com.maxpeng;
  * version: 0.1
  */
 public class Application {
+
     private final Rover rover;
 
     public Application(Rover rover) {
@@ -15,8 +16,19 @@ public class Application {
     }
 
     public void receiveCommand(char commandLetter) {
-        Command command = CommandFactory.buildCommand(commandLetter, rover);
-        command.execute();
+
+        if (commandLetter == 'L') {
+            rover.turnLeft();
+        }
+
+        if (commandLetter == 'R') {
+            rover.turnRight();
+        }
+
+        if (commandLetter == 'M') {
+            rover.move();
+        }
+
     }
 
 }
